@@ -14,9 +14,3 @@
 
 # Follow symlinks
 --follow
-
-# Mason types
-#--type-set=mason=.m,.mi
-
-# Config types
-#--type-set=config=.cfg
