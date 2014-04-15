@@ -1,0 +1,22 @@
+# Sort the files
+--sort-files
+
+# Always color, even if piping to another program
+--color
+
+# Use "less -RFX" as pager
+--pager=less -RFX
+
+# Directory Ignores
+--ignore-dir=build/
+--ignore-dir=eclipse-bin/
+--ignore-dir=apollo-overrides/
+
+# Follow symlinks
+--follow
+
+# Mason types
+#--type-set=mason=.m,.mi
+
+# Config types
+#--type-set=config=.cfg
