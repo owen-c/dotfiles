@@ -1,3 +1,5 @@
+alias ppj='python -m json.tool'
+alias decodeb64='python -m base64 -d'
 alias zgrep='nocorrect zgrep --color=always'
 alias bb='brazil-build'
 alias l='ls -CF'
