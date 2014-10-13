@@ -13,6 +13,8 @@ alias 3='cd ../../..'
 alias 4='cd ../../../..'
 alias 5='cd ../../../../..'
 
+alias ag='ag --color --pager="less -RFX" --follow'
+
 export P4PORT=perforce.amazon.com:9591
 export P4IGNORE=.p4ignore
 export PATH=$PATH:/home/ocmng/Software/p4v-2013.2.679599/bin:/home/ocmng/Scripts
