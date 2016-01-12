@@ -1,0 +1,31 @@
+[user]
+	email = ocmng@amazon.com
+	name = Owen Cummings
+[color]
+	ui = auto
+[core]
+	pager = less -FMRiX
+	excludesfile = /home/ocmng/.gitignore_global
+        editor = vim
+[push]
+	default = simple
+[alias]
+	dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%cr%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+        st = status -sb
+        co = checkout
+        br = branch
+        up = pull --rebase
+        ci = commit
+        lg = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+[amazon]
+	append-cr-url = true
+	suggest-gitfarm-client = shown
+	pull-request-by-default = true
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[commit]
+	template = /home/ocmng/Documents/gitmessage

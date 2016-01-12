@@ -1,0 +1,10 @@
+.classpath
+.project
+.settings
+build
+eclipse-bin
+apollo-overrides
+*.iml
+
+mason/amazon-family/gp/mytest/
+mason/common/layouts/learning-tool-provider/owenLayout.mi
