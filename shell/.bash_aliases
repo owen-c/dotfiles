@@ -24,7 +24,22 @@ alias ag='ag --color --pager="less -RFX" --follow'
 export P4PORT=perforce.amazon.com:9591
 export P4IGNORE=.p4ignore
 export PATH=$PATH:/home/ocmng/Software/p4v-2013.2.679599/bin:/home/ocmng/Scripts:/apollo/env/MLEnvImprovement/bin:/workplace/ocmng/ocmng-Sandbox/src/AmaSSH/scripts:/apollo/env/BarkCLI/bin
+export PATH="$PATH:/apollo/env/GordianKnot/bin"
 
 # bind special keys according to readline configuration
 eval "$(sed -n 's/^/bindkey /; s/: / /p' /etc/inputrc)"
 
+#allow tab completion in the middle of a word
+setopt COMPLETE_IN_WORD
+
+## history
+setopt APPEND_HISTORY
+
+## never ever beep ever
+setopt NO_BEEP
+
+## automatically decide when to page a list of completions
+LISTMAX=0
+
+## disable mail checking
+MAILCHECK=0
